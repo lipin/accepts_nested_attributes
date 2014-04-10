@@ -15,7 +15,7 @@ class ForestsController < ApplicationController
   # GET /forests/new
   def new
     @forest = Forest.new
-    3.times { @forest.trees.build }
+    # 3.times { @forest.trees.build }
   end
 
   # GET /forests/1/edit
@@ -70,7 +70,7 @@ class ForestsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def forest_params
-      params.require(:forest).permit(:name, :size, :latitude, :longitude, :climate, 
+      params.require(:forest).permit(:name, :size, :latitude, :longitude, :climate,
                                      trees_attributes: [:forest_id, :common_name, :scientific_name])
     end
 end

@@ -713,3 +713,2433 @@ Processing by ForestsController#new as HTML
   Rendered forests/_form.html.erb (21.4ms)
   Rendered forests/new.html.erb within layouts/application (23.1ms)
 Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forests" for 127.0.0.1 at 2014-04-10 09:12:07 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (0.3ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (101.1ms)
+Completed 200 OK in 911ms (Views: 832.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:08 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:09 +0800
+
+
+Started GET "/forests/new" for 127.0.0.1 at 2014-04-10 09:12:11 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (131.4ms)
+  Rendered forests/new.html.erb within layouts/application (147.1ms)
+Completed 200 OK in 516ms (Views: 194.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/forests" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+Processing by ForestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNhBpuOKm+4hDCSJqInUNSsk9jAZJnaPy2P36AdT+j4=", "forest"=>{"name"=>"22", "size"=>"3", "latitude"=>"3", "longitude"=>"3", "climate"=>"3", "trees_attributes"=>{"0"=>{"common_name"=>"aa", "scientific_name"=>"aa"}, "1"=>{"common_name"=>"", "scientific_name"=>""}, "2"=>{"common_name"=>"", "scientific_name"=>""}}}, "commit"=>"Create Forest"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (22.3ms)[0m  rollback transaction
+  Rendered forests/_form.html.erb (33.3ms)
+  Rendered forests/new.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 180ms (Views: 125.2ms | ActiveRecord: 22.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:28 +0800
+
+
+Started POST "/forests" for 127.0.0.1 at 2014-04-10 09:12:39 +0800
+Processing by ForestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNhBpuOKm+4hDCSJqInUNSsk9jAZJnaPy2P36AdT+j4=", "forest"=>{"name"=>"22", "size"=>"3", "latitude"=>"3", "longitude"=>"3", "climate"=>"3", "trees_attributes"=>{"0"=>{"common_name"=>"aa", "scientific_name"=>"aa"}, "1"=>{"common_name"=>"bb", "scientific_name"=>"bb"}, "2"=>{"common_name"=>"cc", "scientific_name"=>"cc"}}}, "commit"=>"Create Forest"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (215.3ms)[0m  INSERT INTO "forests" ("climate", "created_at", "latitude", "longitude", "name", "size", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["climate", "3"], ["created_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00], ["latitude", 3], ["longitude", 3], ["name", "22"], ["size", 3], ["updated_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00]]
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "trees" ("common_name", "created_at", "forest_id", "scientific_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["common_name", "aa"], ["created_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00], ["forest_id", 2], ["scientific_name", "aa"], ["updated_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trees" ("common_name", "created_at", "forest_id", "scientific_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["common_name", "bb"], ["created_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00], ["forest_id", 2], ["scientific_name", "bb"], ["updated_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trees" ("common_name", "created_at", "forest_id", "scientific_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["common_name", "cc"], ["created_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00], ["forest_id", 2], ["scientific_name", "cc"], ["updated_at", Thu, 10 Apr 2014 01:12:39 UTC +00:00]]
+  [1m[35m (112.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/forests/2
+Completed 302 Found in 367ms (ActiveRecord: 329.6ms)
+
+
+Started GET "/forests/2" for 127.0.0.1 at 2014-04-10 09:12:39 +0800
+Processing by ForestsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mForest Load (0.8ms)[0m  [1mSELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered forests/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 161ms (Views: 154.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 09:12:40 +0800
+
+
+Started GET "/forests" for 127.0.0.1 at 2014-04-10 09:12:43 +0800
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (0.7ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 112ms (Views: 109.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/forests/2" for 127.0.0.1 at 2014-04-10 09:12:46 +0800
+Processing by ForestsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mForest Load (0.5ms)[0m  [1mSELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered forests/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 108ms (Views: 104.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/forests" for 127.0.0.1 at 2014-04-10 09:12:48 +0800
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (0.2ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/forests/2/edit" for 127.0.0.1 at 2014-04-10 09:12:49 +0800
+Processing by ForestsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mForest Load (0.5ms)[0m  [1mSELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mTree Load (0.7ms)[0m  SELECT "trees".* FROM "trees" WHERE "trees"."forest_id" = ?  [["forest_id", 2]]
+  Rendered forests/_form.html.erb (82.4ms)
+  Rendered forests/edit.html.erb within layouts/application (90.7ms)
+Completed 200 OK in 187ms (Views: 183.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/forests" for 127.0.0.1 at 2014-04-10 09:12:58 +0800
+Processing by ForestsController#index as HTML
+  [1m[36mForest Load (0.2ms)[0m  [1mSELECT "forests".* FROM "forests"[0m
+  Rendered forests/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 154ms (Views: 152.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/forests/1" for 127.0.0.1 at 2014-04-10 09:13:03 +0800
+Processing by ForestsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rNhBpuOKm+4hDCSJqInUNSsk9jAZJnaPy2P36AdT+j4=", "id"=>"1"}
+  [1m[35mForest Load (0.2ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "forests" WHERE "forests"."id" = ?  [["id", 1]]
+  [1m[36m (109.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/forests
+Completed 302 Found in 116ms (ActiveRecord: 109.9ms)
+
+
+Started GET "/forests" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (0.3ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:04 +0800
+
+
+Started GET "/trees" for 127.0.0.1 at 2014-04-10 09:13:11 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (0.4ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (38.9ms)
+Completed 200 OK in 155ms (Views: 151.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 09:13:12 +0800
+
+
+Started GET "/trees/8" for 127.0.0.1 at 2014-04-10 09:13:22 +0800
+Processing by TreesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mTree Load (0.5ms)[0m  SELECT "trees".* FROM "trees" WHERE "trees"."id" = ? LIMIT 1  [["id", "8"]]
+  Rendered trees/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 115ms (Views: 105.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trees" for 127.0.0.1 at 2014-04-10 09:13:25 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (2.4ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/trees/7" for 127.0.0.1 at 2014-04-10 09:13:27 +0800
+Processing by TreesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTree Load (0.4ms)[0m  SELECT "trees".* FROM "trees" WHERE "trees"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered trees/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/trees" for 127.0.0.1 at 2014-04-10 09:13:29 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (0.4ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/Forests" for 127.0.0.1 at 2014-04-10 09:15:15 +0800
+
+ActionController::RoutingError (No route matches [GET] "/Forests"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/srui/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/srui/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/srui/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/srui/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/srui/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/srui/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.1ms)
+  Rendered /home/srui/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (190.7ms)
+
+
+Started GET "/forests" for 127.0.0.1 at 2014-04-10 09:15:21 +0800
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (0.2ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 50ms (Views: 42.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-10 09:15:22 +0800
+
+
+Started GET "/forests/new" for 127.0.0.1 at 2014-04-10 09:16:01 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (13.3ms)
+  Rendered forests/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 54ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2014-04-10 09:25:25 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (24.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.3/lib/rails/templates/rails/welcome/index.html.erb (48.7ms)
+Completed 200 OK in 582ms (Views: 301.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trees" for 10.0.2.2 at 2014-04-10 09:25:56 +0800
+Processing by TreesController#index as HTML
+  [1m[35mTree Load (7.0ms)[0m  SELECT "trees".* FROM "trees"
+  Rendered trees/index.html.erb within layouts/application (402.6ms)
+Completed 200 OK in 41528ms (Views: 41253.5ms | ActiveRecord: 131.4ms)
+
+
+Started GET "/trees" for 10.0.2.2 at 2014-04-10 09:26:39 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (22.0ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (138.6ms)
+Completed 200 OK in 899ms (Views: 858.1ms | ActiveRecord: 22.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (16.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (2.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/trees" for 10.0.2.2 at 2014-04-10 09:27:51 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (8.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TreesController#index as HTML
+  [1m[35mTree Load (4.4ms)[0m  SELECT "trees".* FROM "trees"
+  Rendered trees/index.html.erb within layouts/application (102.0ms)
+Completed 200 OK in 3827ms (Views: 3358.8ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 09:27:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:00 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 09:28:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:01 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:01 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 09:28:02 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:02 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:03 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:03 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:03 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:04 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:04 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:05 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:05 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:05 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:06 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:06 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:07 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:08 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:09 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:10 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 10.0.2.2 at 2014-04-10 09:28:11 +0800
+
+
+Started GET "/forests" for 10.0.2.2 at 2014-04-10 09:28:26 +0800
+Processing by ForestsController#index as HTML
+  [1m[36mForest Load (12.8ms)[0m  [1mSELECT "forests".* FROM "forests"[0m
+  Rendered forests/index.html.erb within layouts/application (78.8ms)
+Completed 200 OK in 936ms (Views: 696.2ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 09:28:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 09:28:29 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 09:28:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:30 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:30 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:30 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:31 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:31 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:32 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:32 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:32 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:32 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:33 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:34 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:34 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:34 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:34 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:34 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:35 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 09:28:35 +0800
+
+
+Started GET "/forests/2" for 10.0.2.2 at 2014-04-10 09:28:43 +0800
+Processing by ForestsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mForest Load (3.8ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered forests/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 955ms (Views: 933.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/forests" for 10.0.2.2 at 2014-04-10 09:28:48 +0800
+Processing by ForestsController#index as HTML
+  [1m[36mForest Load (6.6ms)[0m  [1mSELECT "forests".* FROM "forests"[0m
+  Rendered forests/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 544ms (Views: 533.2ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:39:30 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (239.7ms)
+  Rendered forests/new.html.erb within layouts/application (362.3ms)
+Completed 200 OK in 1278ms (Views: 1044.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:41:46 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (882.8ms)
+  Rendered forests/new.html.erb within layouts/application (1225.6ms)
+Completed 500 Internal Server Error in 2276ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<#<Class:0xb639ea0c>:0xb63f0de8>):
+    65:       </div>
+    66:     </div>
+    67:     <div>
+    68:       <%= link_to_add :trees, :class => "btn btn-primary"  %>
+    69:     </div>
+    70: 
+    71:   <% end %>
+  app/views/forests/_form.html.erb:68:in `block (2 levels) in _app_views_forests__form_html_erb___693400044__618682938'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb___693400044__618682938'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044__618682938'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (242.2ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:42:08 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (456.4ms)
+  Rendered forests/new.html.erb within layouts/application (628.9ms)
+Completed 500 Internal Server Error in 1227ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<ActionView::Helpers::FormBuilder:0xa04e570>):
+    65:       </div>
+    66:     </div>
+    67:     <div>
+    68:       <%= t.link_to_add :trees, :class => "btn btn-primary"  %>
+    69:     </div>
+    70: 
+    71:   <% end %>
+  app/views/forests/_form.html.erb:68:in `block (2 levels) in _app_views_forests__form_html_erb___693400044_82999370'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb___693400044_82999370'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044_82999370'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (75.4ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:43:35 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (315.4ms)
+  Rendered forests/new.html.erb within layouts/application (550.1ms)
+Completed 500 Internal Server Error in 1087ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<ActionView::Helpers::FormBuilder:0xa0233c0>):
+    65:       </div>
+    66:     </div>
+    67:     <div>
+    68:       <%= f.link_to_add :trees, :class => "btn btn-primary"  %>
+    69:     </div>
+    70: 
+    71:   <% end %>
+  app/views/forests/_form.html.erb:68:in `block (2 levels) in _app_views_forests__form_html_erb___693400044_83028400'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb___693400044_83028400'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044_83028400'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (84.0ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:43:38 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (486.2ms)
+  Rendered forests/new.html.erb within layouts/application (785.0ms)
+Completed 500 Internal Server Error in 1341ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<ActionView::Helpers::FormBuilder:0xb63283e8>):
+    65:       </div>
+    66:     </div>
+    67:     <div>
+    68:       <%= f.link_to_add :trees, :class => "btn btn-primary"  %>
+    69:     </div>
+    70: 
+    71:   <% end %>
+  app/views/forests/_form.html.erb:68:in `block (2 levels) in _app_views_forests__form_html_erb___693400044_83028400'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb___693400044_83028400'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044_83028400'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.6ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:43:48 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (544.1ms)
+  Rendered forests/new.html.erb within layouts/application (941.6ms)
+Completed 500 Internal Server Error in 2212ms
+
+ActionView::Template::Error (undefined method `link_to' for #<ActionView::Helpers::FormBuilder:0xa046a00>):
+    65:       </div>
+    66:     </div>
+    67:     <div>
+    68:       <%= f.link_to :trees, :class => "btn btn-primary"  %>
+    69:     </div>
+    70: 
+    71:   <% end %>
+  app/views/forests/_form.html.erb:68:in `block (2 levels) in _app_views_forests__form_html_erb___693400044_83135440'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb___693400044_83135440'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044_83135440'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (130.8ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:50:20 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (58.7ms)
+  Rendered forests/new.html.erb within layouts/application (389.3ms)
+Completed 200 OK in 1488ms (Views: 1480.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 09:50:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:23 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:23 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 09:50:24 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 09:50:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:24 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:25 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:25 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:25 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:26 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:26 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:27 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:27 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:28 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:28 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:28 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:29 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:29 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:30 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 09:50:30 +0800
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:57:32 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (191.9ms)
+  Rendered forests/new.html.erb within layouts/application (349.1ms)
+Completed 500 Internal Server Error in 924ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<ActionView::Helpers::FormBuilder:0xb638ff20>):
+    66:     </div>
+    67: 
+    68:   <% end %>
+    69: <td><%= f.link_to_add 'Add', :trees %></td>
+    70:   <div class="form-group">
+    71:     <div class="col-lg-offset-2 col-lg-10">
+    72:       <%= f.submit :class => "btn btn-primary" %>
+  app/views/forests/_form.html.erb:69:in `block in _app_views_forests__form_html_erb___693400044__618907818'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044__618907818'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (110.8ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 09:59:58 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (862.8ms)
+  Rendered forests/new.html.erb within layouts/application (1343.0ms)
+Completed 500 Internal Server Error in 2600ms
+
+ActionView::Template::Error (undefined method `link_to' for #<ActionView::Helpers::FormBuilder:0xb602f704>):
+    66:     </div>
+    67: 
+    68:   <% end %>
+    69: <td><%= f.link_to 'Add', :trees %></td>
+    70:   <div class="form-group">
+    71:     <div class="col-lg-offset-2 col-lg-10">
+    72:       <%= f.submit :class => "btn btn-primary" %>
+  app/views/forests/_form.html.erb:69:in `block in _app_views_forests__form_html_erb___693400044__620678538'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044__620678538'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (37.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (140.1ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:01:17 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (277.4ms)
+  Rendered forests/new.html.erb within layouts/application (486.7ms)
+Completed 500 Internal Server Error in 1204ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0xb639ea0c>:0x9e5d018>):
+    1: <%= simple_form_for(@forest, :html => { :class => "form-horizontal" }) do |f| %>
+    2:   <% if @forest.errors.any? %>
+    3:     <div class="alert alert-danger alert-dismissable">
+    4:       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044_83138590'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (120.3ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:01:21 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (384.4ms)
+  Rendered forests/new.html.erb within layouts/application (588.5ms)
+Completed 500 Internal Server Error in 1156ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0xb639ea0c>:0xb6313b28>):
+    1: <%= simple_form_for(@forest, :html => { :class => "form-horizontal" }) do |f| %>
+    2:   <% if @forest.errors.any? %>
+    3:     <div class="alert alert-danger alert-dismissable">
+    4:       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___693400044_83138590'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb__441016555__618692058'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (101.7ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:02:49 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (25.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (3680.3ms)
+  Rendered forests/new.html.erb within layouts/application (4061.7ms)
+Completed 500 Internal Server Error in 6477ms
+
+ActionView::Template::Error (undefined method `link_to' for #<SimpleForm::FormBuilder:0xac74b38>):
+    66:     </div>
+    67: 
+    68:   <% end %>
+    69: <td><%= f.link_to 'Add', :trees %></td>
+    70:   <div class="form-group">
+    71:     <div class="col-lg-offset-2 col-lg-10">
+    72:       <%= f.submit :class => "btn btn-primary" %>
+  app/views/forests/_form.html.erb:69:in `block in _app_views_forests__form_html_erb___18601849_83417920'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___18601849_83417920'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb___925919059_83031890'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (17.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (97.0ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:03:19 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (224.0ms)
+  Rendered forests/new.html.erb within layouts/application (352.7ms)
+Completed 500 Internal Server Error in 779ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<SimpleForm::FormBuilder:0xa6c3838>):
+    66:     </div>
+    67: 
+    68:   <% end %>
+    69: <td><%= f.link_to_add 'Add', :trees %></td>
+    70:   <div class="form-group">
+    71:     <div class="col-lg-offset-2 col-lg-10">
+    72:       <%= f.submit :class => "btn btn-primary" %>
+  app/views/forests/_form.html.erb:69:in `block in _app_views_forests__form_html_erb___18601849_86689400'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___18601849_86689400'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb___925919059_83031890'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (91.3ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:03:20 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (270.0ms)
+  Rendered forests/new.html.erb within layouts/application (389.2ms)
+Completed 500 Internal Server Error in 912ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<SimpleForm::FormBuilder:0xad6d418>):
+    66:     </div>
+    67: 
+    68:   <% end %>
+    69: <td><%= f.link_to_add 'Add', :trees %></td>
+    70:   <div class="form-group">
+    71:     <div class="col-lg-offset-2 col-lg-10">
+    72:       <%= f.submit :class => "btn btn-primary" %>
+  app/views/forests/_form.html.erb:69:in `block in _app_views_forests__form_html_erb___18601849_86689400'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb___18601849_86689400'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb___925919059_83031890'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (117.6ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:04:17 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (20.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (773.9ms)
+  Rendered forests/new.html.erb within layouts/application (1045.0ms)
+Completed 500 Internal Server Error in 2911ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<SimpleForm::FormBuilder:0xaffca1c>):
+    66:     </div>
+    67: 
+    68:   <% end %>
+    69: <td><%= f.link_to_add 'Add', :trees %></td>
+    70:   <div class="form-group">
+    71:     <div class="col-lg-offset-2 col-lg-10">
+    72:       <%= f.submit :class => "btn btn-primary" %>
+  app/views/forests/_form.html.erb:69:in `block in _app_views_forests__form_html_erb__145827963_91914900'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb__145827963_91914900'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb___480943833_91804900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (17.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (96.5ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:04:53 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (303.0ms)
+  Rendered forests/new.html.erb within layouts/application (548.3ms)
+Completed 500 Internal Server Error in 1062ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<SimpleForm::FormBuilder:0xa9fb064>):
+    64:         </div>
+    65:       </div>
+    66:     </div>
+    67: <td><%= f.link_to_add 'Add', :trees %></td>
+    68:   <% end %>
+    69: 
+    70:   <div class="form-group">
+  app/views/forests/_form.html.erb:67:in `block (2 levels) in _app_views_forests__form_html_erb__145827963_88949720'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb__145827963_88949720'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb__145827963_88949720'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb___480943833_91804900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (17.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (72.6ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:05:03 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (499.1ms)
+  Rendered forests/new.html.erb within layouts/application (597.3ms)
+Completed 500 Internal Server Error in 1182ms
+
+ActionView::Template::Error (undefined method `link_to_add' for #<SimpleForm::FormBuilder:0xb069ce8>):
+    64:         </div>
+    65:       </div>
+    66:     </div>
+    67: <td><%= t.link_to_add 'Add', :trees %></td>
+    68:   <% end %>
+    69: 
+    70:   <div class="form-group">
+  app/views/forests/_form.html.erb:67:in `block (2 levels) in _app_views_forests__form_html_erb__145827963_92446990'
+  app/views/forests/_form.html.erb:46:in `block in _app_views_forests__form_html_erb__145827963_92446990'
+  app/views/forests/_form.html.erb:1:in `_app_views_forests__form_html_erb__145827963_92446990'
+  app/views/forests/new.html.erb:9:in `_app_views_forests_new_html_erb___480943833_91804900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (76.4ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:06:22 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (28.1ms)
+  Rendered forests/new.html.erb within layouts/application (99.3ms)
+Completed 200 OK in 6902ms (Views: 6875.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:06:30 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:06:31 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:06:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:33 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:34 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:34 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:34 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:35 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:35 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:36 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:36 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:36 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:37 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:37 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:38 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:38 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:39 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:39 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:40 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:06:41 +0800
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:11:03 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (62.5ms)
+  Rendered forests/new.html.erb within layouts/application (337.9ms)
+Completed 200 OK in 2477ms (Views: 2462.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:11:06 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:11:06 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:11:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:08 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:08 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:09 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:09 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:09 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:10 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:10 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:10 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:11 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:11 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:11 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:12 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:12 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:12 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:13 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:11:14 +0800
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:21:39 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (65.0ms)
+  Rendered forests/new.html.erb within layouts/application (287.2ms)
+Completed 200 OK in 1974ms (Views: 1946.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:21:42 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:21:42 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:21:43 +0800
+
+
+Started GET "/javascripts/defaults.js" for 10.0.2.2 at 2014-04-10 10:21:43 +0800
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  thin (1.6.1) lib/thin/connection.rb:82:in `block in pre_process'
+  thin (1.6.1) lib/thin/connection.rb:80:in `catch'
+  thin (1.6.1) lib/thin/connection.rb:80:in `pre_process'
+  thin (1.6.1) lib/thin/connection.rb:55:in `process'
+  thin (1.6.1) lib/thin/connection.rb:41:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.1) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.1) lib/thin/server.rb:162:in `start'
+  thin (1.6.1) lib/thin/controllers/controller.rb:87:in `start'
+  thin (1.6.1) lib/thin/runner.rb:200:in `run_command'
+  thin (1.6.1) lib/thin/runner.rb:156:in `run!'
+  thin (1.6.1) bin/thin:6:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/thin:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/thin:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (24.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (60.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (285.9ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:22:22 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (33.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (537.1ms)
+  Rendered forests/new.html.erb within layouts/application (904.3ms)
+Completed 200 OK in 5934ms (Views: 3782.0ms | ActiveRecord: 66.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:22:38 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:22:39 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:22:40 +0800
+
+
+Started GET "/javascripts/defaults.js" for 10.0.2.2 at 2014-04-10 10:22:41 +0800
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  thin (1.6.1) lib/thin/connection.rb:82:in `block in pre_process'
+  thin (1.6.1) lib/thin/connection.rb:80:in `catch'
+  thin (1.6.1) lib/thin/connection.rb:80:in `pre_process'
+  thin (1.6.1) lib/thin/connection.rb:55:in `process'
+  thin (1.6.1) lib/thin/connection.rb:41:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.1) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.1) lib/thin/server.rb:162:in `start'
+  thin (1.6.1) lib/thin/controllers/controller.rb:87:in `start'
+  thin (1.6.1) lib/thin/runner.rb:200:in `run_command'
+  thin (1.6.1) lib/thin/runner.rb:156:in `run!'
+  thin (1.6.1) bin/thin:6:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/thin:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/thin:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (25.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (48.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (78.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (480.0ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:23:18 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (22.6ms)
+  Rendered forests/new.html.erb within layouts/application (192.2ms)
+Completed 200 OK in 1765ms (Views: 1744.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:23:20 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:23:21 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:23:21 +0800
+
+
+Started GET "/javascripts/defaults.js" for 10.0.2.2 at 2014-04-10 10:23:22 +0800
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  thin (1.6.1) lib/thin/connection.rb:82:in `block in pre_process'
+  thin (1.6.1) lib/thin/connection.rb:80:in `catch'
+  thin (1.6.1) lib/thin/connection.rb:80:in `pre_process'
+  thin (1.6.1) lib/thin/connection.rb:55:in `process'
+  thin (1.6.1) lib/thin/connection.rb:41:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.1) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.1) lib/thin/server.rb:162:in `start'
+  thin (1.6.1) lib/thin/controllers/controller.rb:87:in `start'
+  thin (1.6.1) lib/thin/runner.rb:200:in `run_command'
+  thin (1.6.1) lib/thin/runner.rb:156:in `run!'
+  thin (1.6.1) bin/thin:6:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/thin:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/thin:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (22.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (299.4ms)
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:26:48 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (17.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (607.9ms)
+  Rendered forests/new.html.erb within layouts/application (1029.8ms)
+Completed 200 OK in 10458ms (Views: 8958.9ms | ActiveRecord: 34.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:27:06 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:27:06 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:27:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:09 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:09 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:10 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:10 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:11 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:11 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:12 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:12 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:13 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:14 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:14 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:15 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:15 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:16 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:16 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:17 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:27:19 +0800
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:35:46 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (707.9ms)
+  Rendered forests/new.html.erb within layouts/application (1088.0ms)
+Completed 200 OK in 3699ms (Views: 3300.0ms | ActiveRecord: 72.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:35:52 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:35:52 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:35:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:54 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:55 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:55 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:56 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:56 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:57 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:57 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:58 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:59 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:35:59 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:00 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:00 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:01 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:02 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:02 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:03 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:03 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:05 +0800
+
+
+Started POST "/forests" for 10.0.2.2 at 2014-04-10 10:36:18 +0800
+Processing by ForestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNhBpuOKm+4hDCSJqInUNSsk9jAZJnaPy2P36AdT+j4=", "forest"=>{"name"=>"yy", "size"=>"1", "latitude"=>"1", "longitude"=>"1", "climate"=>"1", "trees_attributes"=>{"1397097371202"=>{"common_name"=>"22", "scientific_name"=>"22"}}}, "commit"=>"Create Forest"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (237.9ms)[0m  [1mINSERT INTO "forests" ("climate", "created_at", "latitude", "longitude", "name", "size", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["climate", "1"], ["created_at", Thu, 10 Apr 2014 02:36:19 UTC +00:00], ["latitude", 1], ["longitude", 1], ["name", "yy"], ["size", 1], ["updated_at", Thu, 10 Apr 2014 02:36:19 UTC +00:00]]
+  [1m[35mSQL (10.7ms)[0m  INSERT INTO "trees" ("common_name", "created_at", "forest_id", "scientific_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["common_name", "22"], ["created_at", Thu, 10 Apr 2014 02:36:19 UTC +00:00], ["forest_id", 3], ["scientific_name", "22"], ["updated_at", Thu, 10 Apr 2014 02:36:19 UTC +00:00]]
+  [1m[36m (38.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3001/forests/3
+Completed 302 Found in 535ms (ActiveRecord: 286.9ms)
+
+
+Started GET "/forests/3" for 10.0.2.2 at 2014-04-10 10:36:19 +0800
+Processing by ForestsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mForest Load (22.9ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered forests/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1301ms (Views: 1270.0ms | ActiveRecord: 22.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:36:21 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:36:22 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:36:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:23 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:23 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:24 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:24 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:25 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:25 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:25 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:26 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:26 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:27 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:27 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:28 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:28 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:29 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:29 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:29 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:30 +0800
+
+
+Started GET "/trees" for 10.0.2.2 at 2014-04-10 10:36:42 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (14.0ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (62.9ms)
+Completed 200 OK in 1342ms (Views: 1326.3ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:36:44 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:36:45 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:36:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:47 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:48 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:48 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:49 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:49 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:50 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:50 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:51 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:51 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:51 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:52 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:52 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:52 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:53 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:53 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:53 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:54 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:36:54 +0800
+
+
+Started GET "/trees/9" for 10.0.2.2 at 2014-04-10 10:37:00 +0800
+Processing by TreesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mTree Load (31.9ms)[0m  SELECT "trees".* FROM "trees" WHERE "trees"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered trees/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1476ms (Views: 1412.3ms | ActiveRecord: 31.9ms)
+  [1m[36mTree Load (142.2ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  [1m[35mTree Load (3.0ms)[0m  SELECT "trees".* FROM "trees"
+  [1m[36m (2.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (87.1ms)[0m  DELETE FROM "trees" WHERE "trees"."id" = ?  [["id", 1]]
+  [1m[36m (29.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (5.4ms)[0m  begin transaction
+  [1m[36mSQL (23.7ms)[0m  [1mDELETE FROM "trees" WHERE "trees"."id" = ?[0m  [["id", 2]]
+  [1m[35m (14.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (30.0ms)[0m  DELETE FROM "trees" WHERE "trees"."id" = ?  [["id", 3]]
+  [1m[36m (20.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (22.1ms)[0m  [1mDELETE FROM "trees" WHERE "trees"."id" = ?[0m  [["id", 4]]
+  [1m[35m (21.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (28.4ms)[0m  DELETE FROM "trees" WHERE "trees"."id" = ?  [["id", 5]]
+  [1m[36m (16.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (26.3ms)[0m  [1mDELETE FROM "trees" WHERE "trees"."id" = ?[0m  [["id", 6]]
+  [1m[35m (24.8ms)[0m  commit transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.8ms)[0m  DELETE FROM "trees" WHERE "trees"."id" = ?  [["id", 7]]
+  [1m[36m (19.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (15.2ms)[0m  [1mDELETE FROM "trees" WHERE "trees"."id" = ?[0m  [["id", 8]]
+  [1m[35m (10.7ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (14.8ms)[0m  DELETE FROM "trees" WHERE "trees"."id" = ?  [["id", 9]]
+  [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mTree Load (21.7ms)[0m  SELECT "trees".* FROM "trees"
+
+
+Started GET "/trees" for 10.0.2.2 at 2014-04-10 10:38:19 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (9.1ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 1223ms (Views: 1211.2ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:38:21 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:38:21 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:38:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:22 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:23 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:23 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:24 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:24 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:24 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:25 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:25 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:25 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:25 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:26 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:26 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:27 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:27 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:27 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:28 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:28 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:29 +0800
+
+
+Started GET "/forests/" for 10.0.2.2 at 2014-04-10 10:38:31 +0800
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (21.2ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 1352ms (Views: 1329.7ms | ActiveRecord: 21.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:38:32 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:38:33 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:38:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:34 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:35 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:35 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:36 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:36 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:37 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:37 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:37 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:38 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:38 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:38 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:39 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:39 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:40 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:40 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:41 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:38:41 +0800
+
+
+Started GET "/forests/new" for 10.0.2.2 at 2014-04-10 10:38:48 +0800
+Processing by ForestsController#new as HTML
+  Rendered forests/_form.html.erb (65.0ms)
+  Rendered forests/new.html.erb within layouts/application (304.1ms)
+Completed 200 OK in 1439ms (Views: 1437.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forests" for 10.0.2.2 at 2014-04-10 10:39:01 +0800
+Processing by ForestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNhBpuOKm+4hDCSJqInUNSsk9jAZJnaPy2P36AdT+j4=", "forest"=>{"name"=>"liping", "size"=>"22", "latitude"=>"22", "longitude"=>"22", "climate"=>"22"}, "commit"=>"Create Forest"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (30.8ms)[0m  INSERT INTO "forests" ("climate", "created_at", "latitude", "longitude", "name", "size", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["climate", "22"], ["created_at", Thu, 10 Apr 2014 02:39:01 UTC +00:00], ["latitude", 22], ["longitude", 22], ["name", "liping"], ["size", 22], ["updated_at", Thu, 10 Apr 2014 02:39:01 UTC +00:00]]
+  [1m[36m (30.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3001/forests/4
+Completed 302 Found in 94ms (ActiveRecord: 61.6ms)
+
+
+Started GET "/forests/4" for 10.0.2.2 at 2014-04-10 10:39:01 +0800
+Processing by ForestsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mForest Load (18.4ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered forests/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1361ms (Views: 1340.2ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/forests" for 10.0.2.2 at 2014-04-10 10:39:03 +0800
+Processing by ForestsController#index as HTML
+  [1m[36mForest Load (12.7ms)[0m  [1mSELECT "forests".* FROM "forests"[0m
+  Rendered forests/index.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 1337ms (Views: 1322.9ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:05 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:05 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:06 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:07 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:07 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:07 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:08 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:08 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:08 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:09 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:09 +0800
+
+
+Started GET "/forests" for 10.0.2.2 at 2014-04-10 10:39:10 +0800
+Processing by ForestsController#index as HTML
+  [1m[35mForest Load (2.4ms)[0m  SELECT "forests".* FROM "forests"
+  Rendered forests/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 1126ms (Views: 1121.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:12 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:12 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:15 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:16 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:16 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:16 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:17 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:17 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:17 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:18 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:18 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:18 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:19 +0800
+
+
+Started GET "/forests/" for 10.0.2.2 at 2014-04-10 10:39:20 +0800
+Processing by ForestsController#index as HTML
+  [1m[36mForest Load (14.4ms)[0m  [1mSELECT "forests".* FROM "forests"[0m
+  Rendered forests/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 1486ms (Views: 1470.2ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:22 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:23 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:39:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:24 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:25 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:25 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:25 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:26 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:26 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:26 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:27 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:27 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:28 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:28 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:28 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:29 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:29 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:29 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:39:30 +0800
+
+
+Started GET "/forests/4/edit" for 10.0.2.2 at 2014-04-10 10:39:46 +0800
+Processing by ForestsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mForest Load (51.8ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mTree Load (49.3ms)[0m  [1mSELECT "trees".* FROM "trees" WHERE "trees"."forest_id" = ?[0m  [["forest_id", 4]]
+  Rendered forests/_form.html.erb (132.2ms)
+  Rendered forests/edit.html.erb within layouts/application (613.4ms)
+Completed 200 OK in 3101ms (Views: 2964.9ms | ActiveRecord: 101.1ms)
+
+
+Started PATCH "/forests/4" for 10.0.2.2 at 2014-04-10 10:40:06 +0800
+Processing by ForestsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNhBpuOKm+4hDCSJqInUNSsk9jAZJnaPy2P36AdT+j4=", "forest"=>{"name"=>"liping", "size"=>"22", "latitude"=>"22", "longitude"=>"22", "climate"=>"22", "trees_attributes"=>{"1397097594852"=>{"common_name"=>"lipi", "scientific_name"=>"liping"}}}, "commit"=>"Update Forest", "id"=>"4"}
+  [1m[35mForest Load (43.0ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (87.7ms)[0m  INSERT INTO "trees" ("common_name", "created_at", "forest_id", "scientific_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["common_name", "lipi"], ["created_at", Thu, 10 Apr 2014 02:40:07 UTC +00:00], ["forest_id", 4], ["scientific_name", "liping"], ["updated_at", Thu, 10 Apr 2014 02:40:07 UTC +00:00]]
+  [1m[36m (74.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3001/forests/4
+Completed 302 Found in 274ms (ActiveRecord: 205.5ms)
+
+
+Started GET "/forests/4" for 10.0.2.2 at 2014-04-10 10:40:07 +0800
+Processing by ForestsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mForest Load (19.5ms)[0m  SELECT "forests".* FROM "forests" WHERE "forests"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered forests/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2399ms (Views: 2366.3ms | ActiveRecord: 19.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:40:11 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:40:12 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:40:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:13 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:14 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:14 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:15 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:15 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:16 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:16 +0800
+  [1m[36mTree Load (33.7ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:17 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:17 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:18 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:18 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:19 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:19 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:20 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:20 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:21 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:22 +0800
+
+
+Started GET "/trees" for 10.0.2.2 at 2014-04-10 10:40:29 +0800
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (17.8ms)[0m  [1mSELECT "trees".* FROM "trees"[0m
+  Rendered trees/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 1292ms (Views: 1272.9ms | ActiveRecord: 17.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2014-04-10 10:40:32 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 10.0.2.2 at 2014-04-10 10:40:32 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 10.0.2.2 at 2014-04-10 10:40:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:33 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:34 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:34 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:35 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:35 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:36 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:36 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:36 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:37 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:37 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:38 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:38 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:39 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:39 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:39 +0800
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:40 +0800
+
+
+Started GET "/assets/forests.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:40 +0800
+
+
+Started GET "/assets/trees.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2014-04-10 10:40:41 +0800
